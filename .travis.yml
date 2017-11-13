@@ -5,7 +5,7 @@ addons:
   sonarcloud:
       organization: "catolica"
     token:
-      secure: ""6f7bce9f121364ab9043c1ba2262217f449d0dee"
+      secure: "6f7bce9f121364ab9043c1ba2262217f449d0dee"
 
  jdk:
   - oraclejdk8
