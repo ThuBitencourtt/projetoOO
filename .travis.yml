@@ -4,10 +4,7 @@ install: true
 addons:
   sonarcloud:
       organization: "catolica"
-    token:
-      secure: "6f7bce9f121364ab9043c1ba2262217f449d0dee"
-
- jdk:
+  jdk:
   - oraclejdk8
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
